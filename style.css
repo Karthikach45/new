@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins','sams-serif';
+    padding: 0;
+}
+body{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-blend-mode: color-burn;
+
+    /* background-image: url(K.jpeg); */
+    
+    
+}
+header{
+    width:90rem;
+    height:40rem;
+    background-image: url(RKP_1525.jpg );
+    background-size:cover;
+    justify-content: center;
+
+    min-height: 5rem;
+    color: #eae5e5;
+    padding: 1rem;
+    text-shadow: #333;
+    text-align: center;
+}
+header h1{
+    margin: 0;
+    text-align: center;
+    color:rgb(234, 234, 237);
+    
+}
+header h2{
+    color: aliceblue;
+    text-align: left;
+    justify-content: center;
+    font-style: inherit;
+    font-family:'Times New Roman', Times, serif;
+}
+header h4{
+    text-align: right;
+    justify-content: end;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.nav underline-effect{
+    display: inline-block;
+    position: relative;
+    color: #333;
+} 
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+.about:hover{
+    transform: scale();
+    transition: 5s ease;
+    opacity: 0.5;
+}
+section{
+    padding: 2em;
+    background-color: rgb(216, 213, 205);
+    margin: 1em auto;
+    max-width: 800rem;
+    box-shadow: 0 6 10px rgba(18, 16, 16, 0.1);
+    box-shadow: 2cqi;
+    /* background-image: url(RKP_1525.jpg);
+    backface-visibility:initial;
+    background-size: contain; */
+    cursor: pointer;
+    font-size:large;
+    font-weight: 400;
+
+}
+form{
+    padding: 2em;
+    margin:0.5em auto;
+    margin-top: 0.5em auto;
+    background-color: beige;
+}
+
+.button{
+    color:#fff;
+    visibility: visible;
+}
+section h2{
+    border-bottom: 2px solid #000000;
+    padding-bottom: 0.5em;
+}
+
+footer{
+    background-color: rgb(8, 6, 9);
+    padding: 1em 0;
+    justify-content: center;
+    text-align: center;
+    color: #f3eded;
+
+}
+
+
